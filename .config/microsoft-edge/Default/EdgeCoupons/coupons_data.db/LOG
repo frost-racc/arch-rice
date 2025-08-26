@@ -1,0 +1,6 @@
+2025/08/05-17:18:27.834 55f Reusing MANIFEST /home/frost/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/08/05-17:18:27.834 55f Recovering log #4
+2025/08/05-17:18:27.835 55f Reusing old log /home/frost/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000004.log 
+2025/08/05-17:18:31.205 55f Level-0 table #8: started
+2025/08/05-17:18:31.210 55f Level-0 table #8: 672109 bytes OK
+2025/08/05-17:18:31.215 55f Delete type=0 #4

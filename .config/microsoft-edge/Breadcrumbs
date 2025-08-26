@@ -1,0 +1,98 @@
+0:37:02 Tab12 BeforeUnload proceed:true
+0:37:02 Microsoft.Shutdown.TabStripModel.CloseWebContentsAt
+0:37:02 Microsoft.Shutdown.TabStripModel.CloseTabs
+0:37:02 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+0:37:02 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+0:37:02 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+0:37:02 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+0:37:02 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+0:37:02 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+0:37:02 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+0:37:02 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+0:37:02 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+0:37:02 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+0:37:02 Browser2 Close Tab12 at 0
+0:37:02 Tab12 WebContentsDestroyed
+0:37:02 Microsoft.UnloadController.TabStripEmpty
+0:37:02 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:37:02 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:37:02 Microsoft.Shutdown.OnWindowClosing
+0:37:02 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:37:02 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:37:02 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+0:37:02 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+0:37:02 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+0:37:02 Widget Closed: BrowserFrame
+0:37:02 Microsoft.Browser_Removed
+0:37:08 Tab6 StartNav101 #renderer-user #link
+0:37:09 Tab6 FinishNav101
+0:37:09 Tab6 PageLoad
+0:37:13 Browser1 Switch from Tab6 to Tab4 at 1
+0:37:13 Widget Closed: StatusBubble
+0:37:13 SwitchTab_Click
+0:37:13 Tab4 StartNav102 #bing #renderer-script #link
+0:37:13 Media.Shown
+0:37:13 Tab4 FinishNav102
+0:37:14 Tab4 PageLoad #bing
+0:37:14 Tab4 StartNav103 #renderer-script #auto_subframe
+0:37:14 Tab4 FinishNav103
+0:37:14 Tab4 PageLoad
+0:37:14 Tab4 StartNav104 #bing #renderer-script #auto_subframe
+0:37:15 Tab4 FinishNav104
+0:37:15 Tab4 PageLoad
+0:37:15 Tab4 StartNav105 #bing #renderer-script #auto_subframe
+0:37:15 Tab4 FinishNav105
+0:37:15 Tab4 PageLoad #bing
+0:37:15 OmniboxInputInProgress
+0:37:18 OmniboxDestinationURLIsSearchOnDSP
+0:37:18 LoadURL
+0:37:18 Tab4 StartNav106 #bing #generated
+0:37:19 Widget Closed: RoundedOmniboxResultsFrameWindow
+0:37:19 Tab4 FinishNav106
+0:37:19 Tab4 PageLoad #bing
+0:37:20 Tab4 StartNav107 #renderer-script #auto_subframe
+0:37:20 Tab4 FinishNav107
+0:37:20 Tab4 PageLoad
+0:37:20 Tab4 StartNav108 #bing #renderer-script #auto_subframe
+0:37:20 Tab4 FinishNav108
+0:37:20 Tab4 PageLoad
+0:37:20 Tab4 StartNav109 #bing #renderer-script #auto_subframe
+0:37:20 Tab4 FinishNav109
+0:37:20 Tab4 PageLoad #bing
+0:37:31 Tab4 StartNav110 #renderer-script #auto_subframe
+0:37:31 Tab4 FinishNav110
+0:37:31 Tab4 PageLoad
+0:37:31 Tab4 StartNav111 #bing #renderer-user #auto_subframe
+0:37:31 Tab4 FinishNav111
+0:37:31 Tab4 StartNav112 #bing #renderer-user #link
+0:37:31 Tab4 FinishNav112
+0:37:32 Tab4 PageLoad #bing
+0:37:42 Widget Closed: StatusBubble
+0:38:00 Widget Closed: StatusBubble
+0:38:19 Browser1 Insert active Tab13 at 2
+0:38:19 Widget Closed: StatusBubble
+0:38:19 Tab13 StartNav113 #bing #renderer-user #link
+0:38:19 Media.Hidden
+0:38:19 Tab13 FinishNav113
+0:38:19 Tab13 StartNav114 #bing #renderer-script #link
+0:38:19 Tab13 FinishNav114
+0:38:19 Tab13 PageLoad #bing
+0:38:19 Tab13 StartNav115 #renderer-script #link
+0:38:19 Tab13 FinishNav115
+0:38:19 Tab13 PageLoad
+0:38:26 Widget Closed: TooltipAura
+0:38:27 Tab13 StartNav116 #renderer-user #link
+0:38:27 Tab13 FinishNav116
+0:38:27 Tab13 PageLoad
+0:38:42 Widget Closed: StatusBubble
+0:39:03 Widget Closed: TooltipAura
+0:39:03 Tab14 StartNav117 #renderer-user #link
+0:39:03 Browser1 Insert inactive Tab14 at 3
+0:39:03 Tab14 FinishNav117
+0:39:03 Tab14 PageLoad
+0:39:04 Browser1 Switch from Tab13 to Tab14 at 3
+0:39:04 Widget Closed: StatusBubble
+0:39:04 SwitchTab_Click
+0:39:16 Widget Closed: StatusBubble
+0:39:50 Widget Closed: StatusBubble
+0:41:11 Widget Closed: StatusBubble

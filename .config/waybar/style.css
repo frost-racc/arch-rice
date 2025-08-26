@@ -1,0 +1,89 @@
+@import url('file:///home/frost/.cache/wal/colors-waybar.css');
+
+
+* {
+    border: none;
+    border-radius: 2rem;
+    font-family: "JetBrainsMono NFM";
+    font-weight: normal;
+    font-size: 12px;
+    min-height: 0;
+}
+
+tooltip {
+    color: @background;
+    border-radius: 2rem;
+    background-color: @foreground;
+    text-shadow: none;
+}
+
+tooltip * {
+    color: @background;
+    text-shadow: none;
+}
+
+window#waybar {
+    background-color: @background;
+    color: @foreground;
+}
+
+
+#clock {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#workspaces {
+    /*background-color: @foreground;
+    color: @foreground;*/
+    margin: 0.5rem;
+    padding-right: 2rem;
+    border-radius: 0;
+    border-right: 1px dotted @color1;
+}
+
+#workspaces button {
+    color: @color7;
+    background-color: @color8;
+    margin: 0 0.3rem 0 0.3rem;
+    border-radius: 2rem;
+}
+
+#workspaces button.active {
+    background-color: @color2;
+    color: @color0;
+}
+
+#pulseaudio-slider {
+    margin: 0 0 0 2rem;
+}
+
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+    min-height: 10px;
+    min-width: 100px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: @color3;
+}
+
+#pulseaudio {
+    margin: 0 1rem 0 0;
+}
+
+#pulseaudio.muted {
+    color: @color8;
+}
