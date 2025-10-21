@@ -1,0 +1,39 @@
+# global properties
+title-text: "NERV OS"
+title-color: "#ffffff"
+# title-font: "Tiny5 Regular 20"
+title-font: "Times New Roman Bold 48"
+desktop-image: "nerv.png"
+
+terminal-font: "unicode"
+terminal-border: "3"
+terminal-top: "50%"
+terminal-left: "25%"
+terminal-width: "50%"
+terminal-height: "25%"
+
+# components
+# grub menu
++ boot_menu{
+	left = 15%
+	width = 35%
+	top = 50%
+	height = 50%
+
+	item_font =  "Times New Roman Bold 24"
+	selected_item_font = "Times New Roman Bold 24"
+	item_color = "#ffffff"
+	selected_item_color = "#ff0000"
+	
+	item_padding = 0
+	item_height = 32
+	
+	icon_width = 32
+	icon_height = 32
+	item_icon_space = 0
+	item_spacing = 8
+
+	selected_item_pixmap_style = "select_*.png"
+
+}
+
