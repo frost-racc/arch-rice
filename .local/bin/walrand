@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Set your wallpapers directory
+WALLPAPER_DIR="$HOME/.config/wallpapers/img/"
+
+# Pick a random image
+IMAGE=$(find "$WALLPAPER_DIR" -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' \) | shuf -n 1)
+
+# Check if an image was found
+if [[ -z "$IMAGE" ]]; then
+    echo "No image found in $WALLPAPER_DIR"
+    exit 1
+fi
+
+# Call wal
+wal -i "$IMAGE"
+

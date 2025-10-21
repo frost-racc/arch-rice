@@ -1,0 +1,57 @@
+todo:
+create new git repo with dotfiles for this setup
+widgets?
+
+
+[x] monitors
+[.5] nvim setup
+    [] pywal lualine
+    [x] resolve mason errors
+    [x] transparent background
+    [ ] fonts
+    [ ] colorsheme? 
+    [ ] clean up the config a lil
+[x] pacman setup
+	[x]  yay
+[ ] hyprland
+    [x] border 
+    [x] workspaces
+	[ ] keybinds
+	[ ] wallpaper
+        [ ] good wallpaper engine
+
+	[ ] pywall
+        [x] waybar
+        [x] hyprland colors
+        [ ] spotify
+        [ ] browser - zen
+        [x] script
+        [ ] app for changing themes 
+
+[ ] fastfetch config        
+[ ] wofi /rofi shit
+[x] audio 
+[ ] ly config
+[ ] hyprpicker
+	[ ] keybind? 
+[ ] clipboard manager - clipse?
+	https://github.com/savedra1/clipse
+[ ] doplphin config
+[ ] grub config
+    [ ] border
+    [ ] change wallpaper?
+[ ] waybar config
+    [ ] app names - window manager - too long name / add fade out
+    [ ] calendar
+    [ ] music player? - widget
+    [ ] 
+[ ] ghostty config 
+    [x] colorscheme - kanagawawave
+    [x] pywal 
+[ ] install services and languages
+    [ ] node
+    [ ] python
+[ ] fonts 
+[ ] good browser - uninstall edge somehow?
+    [x] zen  
+        [ ] pywal config
