@@ -1,10 +1,11 @@
 todo:
-create new git repo with dotfiles for this setup
-widgets?
+[x] create new git repo with dotfiles for this setup
+[ ] widgets?
 
 
 [x] monitors
 [.5] nvim setup
+    [x] clipboard
     [] pywal lualine
     [x] resolve mason errors
     [x] transparent background
@@ -27,10 +28,11 @@ widgets?
         [ ] browser - zen
         [x] script
         [ ] app for changing themes 
-
+[ ] dunst config 
 [ ] fastfetch config        
 [ ] wofi /rofi shit
 [x] audio 
+[ ] spicetify
 [ ] ly config
 [ ] hyprpicker
 	[ ] keybind? 

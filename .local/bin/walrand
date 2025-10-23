@@ -13,5 +13,5 @@ if [[ -z "$IMAGE" ]]; then
 fi
 
 # Call wal
-wal -i "$IMAGE"
-
+wal --cols16 -i "$IMAGE"
+fyi Wallpaper Changed!

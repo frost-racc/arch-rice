@@ -27,7 +27,6 @@ window#waybar {
     color: @foreground;
 }
 
-
 #clock {
     font-size: 20px;
     font-weight: bold;
@@ -37,9 +36,9 @@ window#waybar {
     /*background-color: @foreground;
     color: @foreground;*/
     margin: 0.5rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
     border-radius: 0;
-    border-right: 1px dotted @color1;
+    border-right: 2px solid @color1;
 }
 
 #workspaces button {
@@ -55,7 +54,7 @@ window#waybar {
 }
 
 #pulseaudio-slider {
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 1rem;
 }
 
 #pulseaudio-slider slider {
@@ -81,9 +80,15 @@ window#waybar {
 }
 
 #pulseaudio {
-    margin: 0 1rem 0 0;
+    margin: 0 2rem 0 0;
 }
 
 #pulseaudio.muted {
     color: @color8;
+}
+
+#cava {
+    color: @color4;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
