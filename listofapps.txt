@@ -11,10 +11,10 @@ misc apps : cava, spotify, pywal16, btop, radeontop, spf, fastfetch, calcure
 
 
 TODO:
-notification daemon :
+notification daemon : swaync / dunst
 browser color scheme : zen
 power menu : eww
 theme switcher : eww 
-logout: hyprlock
-
+logout: hyprlock / wlogout
+wallpaper switcher: swww / hyprpaper
 misc: spicetify

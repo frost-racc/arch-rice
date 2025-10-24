@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wallpaper-random
+Comment=Set random wallpaper and theme from /.config/wallpaper/img/
+Exec=wallpaper-random
+Terminal=false
+Icon=/home/frost/.local/share/icons/web-design-brush-color-icon.svg
+Type=Application
+Categories=Utility;
+StartupNotify=false
+

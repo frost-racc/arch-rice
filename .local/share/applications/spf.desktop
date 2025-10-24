@@ -2,6 +2,7 @@
 Name=spf
 Comment=Launch spf in new terminal
 Exec=spf
+Icon=/home/frost/.local/share/icons/superfile-logo.png
 Terminal=true
 Type=Application
 Categories=Utility;

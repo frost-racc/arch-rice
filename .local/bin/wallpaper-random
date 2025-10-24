@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Set your wallpapers directory
+WALLPAPER_DIR="$HOME/.config/wallpapers/img/"
+
+# Pick a random image
+IMAGE=$(find "$WALLPAPER_DIR" -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' \) | shuf -n 1)
+
+# Check if an image was found
+if [[ -z "$IMAGE" ]]; then
+    fyi "No image found in $WALLPAPER_DIR"
+    exit 1
+fi
+
+# Call programs
+
+# swww background 
+
+
+# Wait for swww-daemon
+until swww query >/dev/null 2>&1; do
+    sleep 0.5
+    fyi "swww-daemon not responding"
+done
+
+echo "swww-daemon up and running ----------"
+swww img "$IMAGE" -t any --transition-duration=1.5
+fyi "Changed wallpaper to "$IMAGE""
+
+# wal without setting wallpaper '-n'
+sleep 0.5
+wal --cols16 -i "$IMAGE" -n
+fyi "Generated/applied color scheme"
+
+# spf config
+cp $HOME/.cache/wal/colors-superfile.toml $HOME/.config/superfile/theme/
+
+# cava config
+cp $HOME/.cache/wal/colors-cava $HOME/.config/cava/themes/
+fyi Superfile and spf theme exported!

@@ -2,7 +2,7 @@
     "layer": "bottom",
     //"height": ,
     "position": "top",
-    "margin-top": 0,
+    "margin-top": 4,
     "margin-bottom": 0,
     "margin-left": 8,
     "margin-right": 8,
@@ -47,7 +47,9 @@
         "format": "{used:0.1f}G/{total:0.1f}G ",
         "tooltip": false,
     },
-    "hyprland/workspaces": {},
+    "hyprland/workspaces": {
+        "format": "{name}",
+    },
     "clock": {
         "interval": 60,
         "tooltip": true,
