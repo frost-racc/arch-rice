@@ -3,7 +3,7 @@
 
 * {
     border: none;
-    border-radius: 2rem;
+    border-radius: 0 0 16px 16px;
     font-family: "JetBrainsMono NFM";
     font-weight: normal;
     font-size: 14px;
@@ -12,7 +12,7 @@
 
 tooltip {
     color: @background;
-    border-radius: 2rem;
+    border-radius: 32px;
     background-color: @foreground;
     text-shadow: none;
 }
@@ -25,27 +25,35 @@ tooltip * {
 window#waybar {
     background-color: @background;
     color: @foreground;
+
 }
 
 #clock {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+
+    border-left: solid 2px @color1;
+    border-right: solid 2px @color1;
+
+    border-radius: 0;
+    padding: 0 48px 0 48px;
+    margin: 4px 0 4px 0;
+
 }
 
 #workspaces {
     /*background-color: @foreground;
     color: @foreground;*/
-    margin: 0.5rem;
-    padding-right: 1rem;
+    margin: 4px;
+    padding: 0 16px 0 16px;
     border-radius: 0;
-    border-right: 2px solid @color1;
+    border-right: 2px dashed @color8;
 }
 
 #workspaces button {
     color: @color7;
     background-color: @color8;
-    margin: 0 0.3rem 0 0.3rem;
-    border-radius: 2rem;
+    border-radius: 32px;
 }
 
 #workspaces button.active {
@@ -53,8 +61,30 @@ window#waybar {
     color: @color0;
 }
 
+#load {
+    margin: 4px 0 4px 0;
+    padding: 0 0 0 0;
+}
+
+#temperature {
+    margin: 4px 0 4px 0;
+    padding: 0 16px 0 0;
+    border-radius: 0;
+    border-right: 2px dashed @color8;
+
+}
+
+#memory {
+    margin: 4px 0 4px 0;
+    padding: 0 16px 0 16px;
+    border-radius: 0;
+    border-right: 2px dashed @color8;
+
+}
+
 #pulseaudio-slider {
-    margin: 0 0 0 1rem;
+    margin: 4px 0 4px 0;
+    padding: 0 0 0 16px;
 }
 
 #pulseaudio-slider slider {
@@ -80,7 +110,8 @@ window#waybar {
 }
 
 #pulseaudio {
-    margin: 0 2rem 0 0;
+    margin: 4px;
+    padding: 0 16px 0 0;
 }
 
 #pulseaudio.muted {
@@ -89,6 +120,6 @@ window#waybar {
 
 #cava {
     color: @color4;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 32px;
+    margin-right: 32px;
 }

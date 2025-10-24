@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=spf
+Comment=Launch spf in new terminal
+Exec=spf
+Terminal=true
+Type=Application
+Categories=Utility;
+StartupNotify=false
+

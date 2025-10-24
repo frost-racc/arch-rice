@@ -1,8 +1,8 @@
 {
     "layer": "bottom",
-    //"height": 32,
+    //"height": ,
     "position": "top",
-    "margin-top": 8,
+    "margin-top": 0,
     "margin-bottom": 0,
     "margin-left": 8,
     "margin-right": 8,
@@ -15,11 +15,18 @@
         "clock"
     ],
     "modules-right": [
+        "load",
+        "temperature",
         "cava",
         "memory",
         "pulseaudio/slider",
         "pulseaudio"
     ],
+    "pulseaudio": {
+        "tooltip": true,
+        "tooltip-format": "Click to launch pavucontrol",
+        "on-click": "hyprctl dispatch exec '[float;size 600 325;move 100%-w-8 40]' pavucontrol"
+    },
     "pulseaudio/slider": {
         "min": 0,
         "max": 100,
@@ -28,6 +35,11 @@
     "hyprland/window": {
         "format": " > {}",
         "icon": false,
+        "tooltip": false
+    },
+    "load": {
+        "interval": 15,
+        "format": "CPU: {load1} | ",
         "tooltip": false
     },
     "memory": {

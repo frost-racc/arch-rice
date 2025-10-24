@@ -17,6 +17,12 @@ if [ -f /usr/share/bash-completion/bash-completion ]; then
 	source /usr/share/bash-completion/bash-completion 
 fi
 
+
+# enviroment vars
+export EDITOR=nvim 
+export XDG_CONFIG_HOME="$HOME/.config/"
+export XDG_CACHE_HOME="$HOME/.cache/"
+
 # prettier prompt via powerline
 # powerline-daemon -q
 # POWERLINE_BASH_CONTINUATION=1

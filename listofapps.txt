@@ -1,0 +1,20 @@
+DONE:
+
+file manager : spf
+browser : zen
+status bar : waybar
+login manager : ly
+editor : nvim 
+
+
+misc apps : cava, spotify, pywal16, btop, radeontop, spf, fastfetch 
+
+
+TODO:
+notification daemon :
+browser color scheme : zen
+power menu : eww
+theme switcher : eww 
+logout: hyprlock
+
+misc: spicetify

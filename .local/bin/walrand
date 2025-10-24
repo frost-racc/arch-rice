@@ -15,3 +15,8 @@ fi
 # Call wal
 wal --cols16 -i "$IMAGE"
 fyi Wallpaper Changed!
+# spf
+cp $HOME/.cache/wal/colors-superfile.toml $HOME/.config/superfile/theme/
+# cava
+cp $HOME/.cache/wal/colors-cava $HOME/.config/cava/themes/
+fyi Superfile theme exported!

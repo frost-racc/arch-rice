@@ -18,6 +18,8 @@ todo:
     [x] border 
     [x] workspaces
 	[ ] keybinds
+        [ ] minimize 
+
 	[ ] wallpaper
         [ ] good wallpaper engine
 
@@ -28,6 +30,8 @@ todo:
         [ ] browser - zen
         [x] script
         [ ] app for changing themes 
+        [x] cava
+        [x] superfile
 [ ] dunst config 
 [ ] fastfetch config        
 [ ] wofi /rofi shit
@@ -47,7 +51,7 @@ todo:
     [ ] calendar
     [ ] music player? - widget
     [ ] 
-[ ] ghostty config 
+[x] ghostty config 
     [x] colorscheme - kanagawawave
     [x] pywal 
 [ ] install services and languages

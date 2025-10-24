@@ -1,0 +1,11 @@
+mode=drun
+allow_images=true
+normal_window=true
+width=25%
+height=25%
+prompt=search
+exec_search=true
+no_custom_entry=false
+image_size=28
+hide_scroll=true
+term=ghostty
