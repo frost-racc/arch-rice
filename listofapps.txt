@@ -7,7 +7,7 @@ login manager : ly
 editor : nvim 
 
 
-misc apps : cava, spotify, pywal16, btop, radeontop, spf, fastfetch 
+misc apps : cava, spotify, pywal16, btop, radeontop, spf, fastfetch, calcure 
 
 
 TODO:

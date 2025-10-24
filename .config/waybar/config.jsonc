@@ -52,7 +52,8 @@
         "interval": 60,
         "tooltip": true,
         "format": "{:%H:%M}",
-        "tooltip-format": "{:%d-%m-%Y}"
+        "tooltip-format": "{:%d-%m-%Y}",
+        "on-click": "opencalendar"
     },
     "cava": {
         "cava_config": "$HOME/.config/cava/config",

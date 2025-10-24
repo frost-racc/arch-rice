@@ -2,7 +2,8 @@ todo:
 [x] create new git repo with dotfiles for this setup
 [ ] widgets?
 
-
+[ ] switch to kitty terminal 
+[ ] create opencalendar script
 [x] monitors
 [.5] nvim setup
     [x] clipboard
