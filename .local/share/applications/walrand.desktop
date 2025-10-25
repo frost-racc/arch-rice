@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=walrand
-Comment=Set random wallpaper and theme from /.config/wallpaper/img/
-Exec=walrand
-Terminal=false
-Type=Application
-Categories=Utility;
-StartupNotify=false
-
