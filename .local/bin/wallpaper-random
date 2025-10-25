@@ -37,4 +37,22 @@ cp $HOME/.cache/wal/colors-superfile.toml $HOME/.config/superfile/theme/
 
 # cava config
 cp $HOME/.cache/wal/colors-cava $HOME/.config/cava/themes/
-fyi Superfile and spf theme exported!
+
+# spicetify
+cp $HOME/.cache/wal/colors-spicetify.ini $HOME/.config/spicetify/Themes/wal/color.ini
+fyi Superfile, spf, spicetify theme exported!
+
+# set spicetify theme
+$HOME/.spicetify/spicetify config current_theme wal
+$HOME/.spicetify/spicetify config color_scheme wal
+$HOME/.spicetify/spicetify apply --no-restart
+# --- Relaunch Spotify only if it was open before ---
+if pgrep -x spotify >/dev/null; then
+    echo "Spotify was running — relaunching after theme update..."
+    pkill -x spotify  # close Spotify cleanly
+    sleep 1
+    hyprctl dispatch exec spotify
+else
+    echo "Spotify not running — leaving it closed."
+fi
+
