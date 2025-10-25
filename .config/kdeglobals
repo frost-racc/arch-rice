@@ -1,0 +1,13 @@
+[Icons]
+Theme=Reversal-purple
+
+[KDE]
+ShowDeleteCommand=false
+widgetStyle=qt6ct-style
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[UiSettings]
+ColorScheme=qt6ct

@@ -2,6 +2,10 @@ todo:
 [x] create new git repo with dotfiles for this setup
 [ ] widgets?
 
+[ ] system fonts
+[ ] system icons
+[ ] gtk themes
+[ ] qt themes
 [ ] switch to kitty terminal 
 [ ] create opencalendar script
 [x] monitors
@@ -20,35 +24,33 @@ todo:
     [x] workspaces
 	[ ] keybinds
         [ ] minimize 
-
-	[ ] wallpaper
-        [ ] good wallpaper engine
+        [ ] create a list of binds for a pop up widget
+	[x] wallpaper
+        [x] good wallpaper engine
 
 	[ ] pywall
         [x] waybar
         [x] hyprland colors
-        [ ] spotify
+        [x] spotify
         [ ] browser - zen
         [x] script
         [ ] app for changing themes 
         [x] cava
         [x] superfile
-[ ] dunst config 
+[ ] swaync config 
 [ ] fastfetch config        
-[ ] wofi /rofi shit
+[x] wofi /rofi shit
 [x] audio 
-[ ] spicetify
+[x] spicetify
 [ ] ly config
 [ ] hyprpicker
 	[ ] keybind? 
-[ ] clipboard manager - clipse?
-	https://github.com/savedra1/clipse
-[ ] doplphin config
+[x] doplphin config
 [ ] grub config
-    [ ] border
-    [ ] change wallpaper?
+    [ ] change png
+    [ ] move options
 [ ] waybar config
-    [ ] app names - window manager - too long name / add fade out
+    [ ] app names - window manager - additional bar? 
     [ ] calendar
     [ ] music player? - widget
     [ ] 

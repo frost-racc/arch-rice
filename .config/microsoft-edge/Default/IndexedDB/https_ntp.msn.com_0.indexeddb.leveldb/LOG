@@ -1,7 +1,0 @@
-2025/08/05-17:54:35.548 55e Reusing MANIFEST /home/frost/.config/microsoft-edge/Default/IndexedDB/https_ntp.msn.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/05-17:54:35.548 55e Recovering log #3
-2025/08/05-17:54:35.549 55e Reusing old log /home/frost/.config/microsoft-edge/Default/IndexedDB/https_ntp.msn.com_0.indexeddb.leveldb/000003.log 
-2025/08/05-17:55:11.541 55f Level-0 table #5: started
-2025/08/05-17:55:11.544 55f Level-0 table #5: 11880 bytes OK
-2025/08/05-17:55:11.549 55f Delete type=0 #3
-2025/08/05-17:55:11.549 55f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

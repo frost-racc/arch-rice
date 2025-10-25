@@ -22,6 +22,8 @@ fi
 export EDITOR=nvim 
 export XDG_CONFIG_HOME="$HOME/.config/"
 export XDG_CACHE_HOME="$HOME/.cache/"
+export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_QPA_PLATFORM=wayland
 
 # prettier prompt via powerline
 # powerline-daemon -q
@@ -53,3 +55,5 @@ fastfetch
 
 # Created by `pipx` on 2025-08-22 13:48:09
 export PATH="$PATH:/home/frost/.local/bin"
+
+export PATH=$PATH:/home/frost/.spicetify

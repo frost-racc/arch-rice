@@ -1,0 +1,15 @@
+[global]
+monitor=2
+follow=keyboard
+width=200
+height=(0,500)
+offset=(20,20)
+separator_height=15
+frame_width=0
+gap_size=15
+font="JetBrainsMono NFM 10"
+padding=16
+horizontal_padding=16
+icon_path=/usr/share/icons/Reversal-purple/
+enable_recursive_icon_lookup=true
+
